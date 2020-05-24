@@ -8,7 +8,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
 	<flow name="travis-ciFlow" doc:id="be91913a-83b7-4661-afd3-b1e69965b344" >
-		<http:listener doc:name="Listener" doc:id="7bf5296c-af1b-4edd-85a7-7fbab58939bb" config-ref="HTTP_Listener_config" path="/test"/>
-		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="3f544286-739d-4639-8b4b-38ae6bd46b06" />
+		<http:listener doc:name="Listener" doc:id="7bf5296c-af1b-4edd-85a7-7fbab58939bb" config-ref="HTTP_Listener_config" path="/Test"/>
+		<set-payload doc:name="Set Payload" doc:id="3f544286-739d-4639-8b4b-38ae6bd46b06" />
 	</flow>
 </mule>
