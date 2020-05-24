@@ -12,4 +12,4 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="3f544286-739d-4639-8b4b-38ae6bd46b06" />
 	</flow>
 </mule>
-         
+   
